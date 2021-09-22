@@ -1,36 +1,35 @@
-p.stagedirection{
-    font-family:'Times New Roman';
+stage-direction{
+    font-family:'Times New Roman', Times, serif;
     font-size: 15px;
-    color: yellow;
-    background-color:blue ;
-    
-}
-
-p.speech{
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    color:red;
+    color: black;
+    background-color:paleturquoise;
 
 }
-
-p.stagedirection:hover{
+.stage-direction:hover{
     background-color: darkkhaki;
     color: firebrick;
 }
-
-table,th,td {
-    border-collapse: collapse;
-    border-style: solid;
-    border-color: black;
-    text-align: center;
-    padding: 40px;
-    margin: 40px;
+.name{
+    color: black;
+    font: large;
+    font-family: 'Times New Roman', Times, serif;
 }
-
-th{
-    font-size: 30px;
-    background-color: lavender;
+.name:hover{
+    color: black;
+    font: large;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px red;
+    filter: blur(0.5px);
+    border: solid pink;
 }
-
-tr:nth-child(even){
-    background-color: lightblue;
+/*Speech styling*/
+.robert{
+    color: maroon;
+    font: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.goring{
+    color: orange;
+    font: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
