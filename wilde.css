@@ -14,7 +14,14 @@ stage-direction{
     font: large;
     font-family: 'Times New Roman', Times, serif;
 }
-
+.name:hover{
+    color: black;
+    font: large;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px aqua;
+    filter: blur(0.5px);
+    border: solid yellowgreen;
+}
 /*Speech styling*/
 .phipps{
     color: blue;
@@ -46,7 +53,7 @@ td {
     text-align: left;
 }
 tr{
-    background-color:blue;
+    background-color:orange;
 }
 tr:nth-child(even){
     background-color: gold;
