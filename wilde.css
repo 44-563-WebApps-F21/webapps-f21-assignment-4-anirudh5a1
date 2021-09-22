@@ -2,34 +2,27 @@ stage-direction{
     font-family:'Times New Roman', Times, serif;
     font-size: 15px;
     color: black;
-    background-color:paleturquoise;
+    background-color:purple;
 
 }
 .stage-direction:hover{
     background-color: darkkhaki;
-    color: firebrick;
+    color: red;
 }
 .name{
     color: black;
     font: large;
     font-family: 'Times New Roman', Times, serif;
 }
-.name:hover{
-    color: black;
-    font: large;
-    font-family: 'Times New Roman', Times, serif;
-    text-shadow: 1px 1px red;
-    filter: blur(0.5px);
-    border: solid pink;
-}
+
 /*Speech styling*/
-.robert{
-    color: maroon;
+.phipps{
+    color: blue;
     font: medium;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .goring{
-    color: orange;
+    color:pink;
     font: medium;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
