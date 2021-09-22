@@ -26,3 +26,28 @@ stage-direction{
     font: medium;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+/*Table styling*/
+table{
+    border-collapse: collapse;
+    border-style: solid;
+    border-color: black;
+    width: 50%;
+}
+th{
+    border-collapse: collapse;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
+td {
+    border-collapse: collapse;
+    border-style: solid;
+    border-color: black;
+    text-align: left;
+}
+tr{
+    background-color:blue;
+}
+tr:nth-child(even){
+    background-color: gold;
+}
